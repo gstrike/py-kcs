@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: py-kcs
+Version: 1.0
+Summary: Encode and Decode Kansas City Standard Cassette Audio Data
+Home-page: http://www.dabeaz.com/py-kcs/index.html
+Author: David Beazley
+Author-email: dave@dabeaz.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Sound/Audio :: Conversion
