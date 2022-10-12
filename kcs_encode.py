@@ -5,9 +5,11 @@
 # Copyright (C) 2010
 #
 # Requires Python 3.1.2 or newer
+#
+# Updated 2022: Greg Strike (https://www.gregorystrike.com)
 
 """
-Takes the contents of a text file and encodes it into a Kansas
+Takes the contents of any file and encodes it into a Kansas
 City Standard WAV file, that when played will upload data via the
 cassette tape input on various vintage home computers. See
 http://en.wikipedia.org/wiki/Kansas_City_standard
@@ -80,9 +82,9 @@ if __name__ == '__main__':
 
     in_filename = sys.argv[1]
     out_filename = sys.argv[2]
-    data = open(in_filename,"U").read()
-    data = data.replace('\n','\r\n')         # Fix line endings
-    rawdata = bytearray(data.encode('latin-1'))
+    data = open(in_filename,"rb").read()
+    #data = data.replace('\n','\r\n')         # Fix line endings
+    rawdata = bytearray(data)
     kcs_write_wav(out_filename,rawdata,5,5)
 
     
