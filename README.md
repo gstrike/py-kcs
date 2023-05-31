@@ -48,7 +48,7 @@ See the following blog posts for more information:
 
 http://dabeaz.blogspot.com/2010/08/using-python-to-encode-cassette.html
 http://dabeaz.blogspot.com/2010/08/decoding-superboard-ii-cassette-audio.html
-https://www.gregorystrike.com/2022/10/01/kansas-city-standard-decoder/
+https://www.gregorystrike.com/2023/01/07/kansas-city-standard-decoder/
 
 Installation Notes
 -------------------
